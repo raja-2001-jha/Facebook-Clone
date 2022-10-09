@@ -1,0 +1,225 @@
+body{
+    padding: 0%;
+    margin: 0%;    
+    overflow: hidden;
+}
+
+.top{
+    background-color: #3b5999;
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 16.vh;
+}
+
+.logo h1{
+    font-size: 70 px;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    width: 55vw;
+    text-align: center;
+}
+
+.login{
+    width: 50vw;
+    display: flex;
+}
+
+.box1{
+    padding: 4px 0px 8px 8px;
+    width: 33%;
+    align-items: center;
+    height: 85px;
+    
+}
+
+.box1 input[type="text"],
+input[type="password"]{
+    width: 75%;
+    outline: none;
+    padding-left: 10px;
+}
+
+.login .box1 h4{
+    margin: 0px;
+    color: #dfeaf9;
+    /* font-size: 17px; */
+    font-size: 1em;
+    padding: 10px 0px 8px 0px;  
+}
+
+.login .box1 h3{
+    margin: 0px;
+    color: #7c99d1;
+    font-size: 18px;
+    padding: 4px 0px 8px 0px;
+}
+
+.login .box2{
+    width: 10%;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .box2 button{
+    /* width: 60px;   */
+    width: 3.9vw;
+    background-color: #4367ae;  
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(5, 5, 75);
+    height: 25px;
+}
+
+.login .box2 button:hover{
+    cursor: pointer;
+    background-color: rgb(16, 43, 161);
+}
+
+.bottom{
+    position: relative;
+    top: 0px;
+    background-color: #dbdfeb;
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+}
+
+.bottom .leftContent{
+    background-color: #ebedf5;
+    width: 50vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom .leftContent .leftcontentText{
+    margin: 0px;
+    width: 40%;
+    height: 140px;
+    /* border: 1px solid black; */
+}
+
+.bottom .leftContent .leftcontentText p{
+    margin: 0px;    
+    color: #223d55;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 27px;
+}
+
+.bottom .leftContent img{
+    width: 570px;
+}
+
+.bottom .rightContent{
+    /* background-color: #dbdfeb; */
+    background-color: #ebedf5;
+    width: 50vw;
+
+}
+
+.bottom .rightContent h1{
+    /* font-size: 38px; */
+    font-size: 2.39em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.bottom .rightContent .Para1{
+    color: #757575;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bottom .rightContent .name input[type="text"]{
+    /* width: 160px; */
+    width: 10.3vw;
+    /* height: 25px; */
+    height: 3.3vh;
+    margin: 0px 10px 15px 0px;
+    border: 1px solid #b3b1b1;
+    outline: none;
+    padding-left: 10px;
+}
+
+.bottom .rightContent .Mob_Pass input[type="text"] {
+    display: block;
+    /* width: 338px; */
+    width: 21.8vw;
+    /* height: 25px; */
+    height: 3.3vh;
+    margin: 0px 0px 15px 0px;
+    border: 1px solid #b3b1b1;
+    outline: none;
+    padding-left: 10px;
+}
+
+.bottom .rightContent .dob input[type="datetime-local"]{
+    width: 180px;
+    height: 25px;
+    margin: 0px 6px 15px 0px;
+    border: 1px solid #b3b1b1;
+    outline: none;
+    padding-left: 10px;
+}
+
+.bottom .rightContent .gender {
+    color: #757575;
+    font-size: 22px;
+    font-weight: bold;
+    width: 180px;
+}
+
+.bottom .rightContent .gender:hover{
+    cursor: pointer;
+}
+.bottom .rightContent .gender input[type="radio"]:hover{
+    cursor: pointer;
+}
+
+.bottom .rightContent .description{
+    width: 400px;
+    margin: 8px 0px 12px 0px;
+    font-size: 14px;
+    color: #5282b3;
+}
+
+.bottom .rightContent .submit_btn #btn{
+    background-color: #69a84e;
+    width: 197px;
+    height: 48px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    margin: 34px 0px 6px 0px;
+}
+
+.bottom .rightContent .submit_btn #btn:hover{
+    background-color: #37aa06;
+    cursor: pointer;
+}
+
+.bottom .rightContent .last_para p{
+    margin: 0%;
+    margin-left: 4px;
+    color: #5282b3;
+}
+
+.bottom .rightContent .last_para{
+    display: flex;
+}
+
+/* @media screen and(max-width:){
+    
+} */
