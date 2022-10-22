@@ -1,10 +1,16 @@
-body{
+body {
     padding: 0%;
-    margin: 0%;    
-    overflow: hidden;
+    margin: 0%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.top{
+
+html {
+    font-size: 62.5%;
+}
+
+.top {
     background-color: #3b5999;
     color: white;
     display: flex;
@@ -12,142 +18,163 @@ body{
     height: 16.vh;
 }
 
-.logo h1{
-    font-size: 70 px;
+.logo h1 {
+    /* font-size: 70 px; */
+    font-size: 7rem;
     font-family: 'Varela Round', sans-serif;
     margin: 0px;
-    height: 100px;
-    line-height: 100px;
-    font-size: 50px;
+    /* height: 100px; */
+    height: 10rem;
+    /* line-height: 100px; */
+    line-height: 10rem;
+    /* font-size: 50px; */
+    font-size: 5rem;
     width: 55vw;
     text-align: center;
 }
 
-.login{
+.login {
     width: 50vw;
     display: flex;
 }
 
-.box1{
-    padding: 4px 0px 8px 8px;
+.box1 {
+    /* padding: 4px 0px 8px 8px; */
+    padding: .4rem 0 .8rem .8rem;
     width: 33%;
     align-items: center;
-    height: 85px;
-    
+    /* height: 85px; */
+    height: 8.5rem;
 }
 
 .box1 input[type="text"],
-input[type="password"]{
+input[type="password"] {
     width: 75%;
     outline: none;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-left: 1rem;
+    border-radius: .2rem;
+    border: none;
+    color: rgb(62, 62, 62);
 }
 
-.login .box1 h4{
+.login .box1 h4 {
     margin: 0px;
     color: #dfeaf9;
     /* font-size: 17px; */
-    font-size: 1em;
-    padding: 10px 0px 8px 0px;  
+    font-size: 1.7rem;
+    /* padding: 10px 0px 8px 0px;   */
+    padding: 1rem 0 .8rem 0;
 }
 
-.login .box1 h3{
+.login .box1 h3 {
     margin: 0px;
     color: #7c99d1;
-    font-size: 18px;
-    padding: 4px 0px 8px 0px;
+    /* font-size: 18px; */
+    font-size: 1.8rem;
+    /* padding: 4px 0px 8px 0px; */
+    padding: .4rem 0 .8rem 0;
 }
 
-.login .box2{
+.login .box2 {
     width: 10%;
-    height: 85px;
+    /* height: 85px; */
+    height: 8.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.login .box2 button{
+.login .box2 button {
     /* width: 60px;   */
-    width: 3.9vw;
-    background-color: #4367ae;  
+    width: 4.5vw;
+    background-color: #4367ae;
     color: white;
     font-weight: bold;
     border: 1px solid rgb(5, 5, 75);
-    height: 25px;
+    /* height: 25px; */
+    height: 2.5rem;
+    font-size: 1.3rem;
 }
 
-.login .box2 button:hover{
+.login .box2 button:hover {
     cursor: pointer;
     background-color: rgb(16, 43, 161);
 }
 
-.bottom{
+.bottom {
     position: relative;
     top: 0px;
     background-color: #dbdfeb;
     height: 85vh;
     width: 100vw;
     display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
 
-.bottom .leftContent{
-    background-color: #ebedf5;
-    width: 50vw;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-}
 
-.bottom .leftContent .leftcontentText{
-    margin: 0px;
+
+
+.bottom .leftContent .leftcontentText {
+    margin: auto;
     width: 40%;
-    height: 140px;
+    /* height: 140px; */
+    height: 14rem;
     /* border: 1px solid black; */
 }
 
-.bottom .leftContent .leftcontentText p{
-    margin: 0px;    
+.bottom .leftContent .leftcontentText p {
+    margin: 0px;
     color: #223d55;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 2rem;
     font-weight: bold;
     display: flex;
-    margin-top: 27px;
+    /* margin-top: 27px; */
+    margin-top: 2.7rem;
 }
 
-.bottom .leftContent img{
-    width: 570px;
+.bottom .leftContent img {
+    /* width: 570px; */
+    width: 57rem;
 }
 
-.bottom .rightContent{
+.bottom .rightContent {
     /* background-color: #dbdfeb; */
     background-color: #ebedf5;
-    width: 50vw;
+    width: 49vw;
+    padding-left: 1.5rem;
 
 }
 
-.bottom .rightContent h1{
+.bottom .rightContent h1 {
     /* font-size: 38px; */
     font-size: 2.39em;
     font-family: 'Varela Round', sans-serif;
 }
 
-.bottom .rightContent .Para1{
+.bottom .rightContent .Para1 {
     color: #757575;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
-.bottom .rightContent .name input[type="text"]{
+.bottom .rightContent .name input[type="text"] {
     /* width: 160px; */
     width: 10.3vw;
     /* height: 25px; */
     height: 3.3vh;
-    margin: 0px 10px 15px 0px;
+    /* margin: 0px 10px 15px 0px; */
+    margin: 0 1rem 1.5rem 0;
     border: 1px solid #b3b1b1;
     outline: none;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-left: 1rem;
+    border-radius: .3rem;
+    color: rgb(62, 62, 62);
 }
 
 .bottom .rightContent .Mob_Pass input[type="text"] {
@@ -156,70 +183,337 @@ input[type="password"]{
     width: 21.8vw;
     /* height: 25px; */
     height: 3.3vh;
-    margin: 0px 0px 15px 0px;
+    /* margin: 0px 0px 15px 0px; */
+    margin-bottom: 1.5rem;
     border: 1px solid #b3b1b1;
     outline: none;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-left: 1rem;
+    border-radius: .3rem;
+    color: rgb(62, 62, 62);
 }
 
-.bottom .rightContent .dob input[type="datetime-local"]{
-    width: 180px;
-    height: 25px;
-    margin: 0px 6px 15px 0px;
+.bottom .rightContent .dob input[type="datetime-local"] {
+    /* width: 180px; */
+    width: 18rem;
+    /* height: 25px; */
+    height: 2.5rem;
+    /* margin: 0px 6px 15px 0px; */
+    margin: 0 .6rem 1.5rem 0;
     border: 1px solid #b3b1b1;
     outline: none;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-left: 1rem;
+    border-radius: .3rem;
 }
 
 .bottom .rightContent .gender {
     color: #757575;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 2.2rem;
     font-weight: bold;
-    width: 180px;
-}
-
-.bottom .rightContent .gender:hover{
-    cursor: pointer;
-}
-.bottom .rightContent .gender input[type="radio"]:hover{
+    /* width: 180px; */
+    width: 18rem;
     cursor: pointer;
 }
 
-.bottom .rightContent .description{
-    width: 400px;
-    margin: 8px 0px 12px 0px;
+/* .bottom .rightContent .gender:hover{
+} */
+
+.bottom .rightContent .gender input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+.bottom .rightContent .description {
+    /* width: 400px; */
+    width: 40rem;
+    /* margin: 8px 0px 12px 0px; */
+    margin: .8rem 0 1.2rem 0;
     font-size: 14px;
     color: #5282b3;
 }
 
-.bottom .rightContent .submit_btn #btn{
+.bottom .rightContent .submit_btn #btn {
     background-color: #69a84e;
-    width: 197px;
-    height: 48px;
+    /* width: 197px; */
+    width: 19.7rem;
+    /* height: 48px; */
+    height: 4.8rem;
     border: none;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 2rem;
     font-family: 'Varela Round', sans-serif;
     font-weight: bolder;
     color: white;
-    border-radius: 10px;
-    margin: 34px 0px 6px 0px;
+    /* border-radius: 10px; */
+    border-radius: 1rem;
+    /* margin: 34px 0px 6px 0px; */
+    margin: 3.4rem 0 .6rem 0;
 }
 
-.bottom .rightContent .submit_btn #btn:hover{
+.bottom .rightContent .submit_btn #btn:hover {
     background-color: #37aa06;
     cursor: pointer;
 }
 
-.bottom .rightContent .last_para p{
+.bottom .rightContent .last_para p {
     margin: 0%;
-    margin-left: 4px;
+    /* margin-left: 4px; */
+    margin-left: .4rem;
     color: #5282b3;
 }
 
-.bottom .rightContent .last_para{
+.bottom .rightContent .last_para {
     display: flex;
 }
 
-/* @media screen and(max-width:){
-    
-} */
+@media (max-width:1180px) {
+    .login .box2 {
+        width: 12%;
+    }
+
+    .login .box2 button {
+        width: 19rem;
+    }
+
+    html {
+        font-size: 60%;
+    }
+
+    .logo h1 {
+        font-size: 7rem;
+        height: 10rem;
+        font-size: 5rem;
+        width: 50vw;
+    }
+
+    .login {
+        width: 55vw;
+        display: flex;
+    }
+
+    .box1 h3 {
+        font-size: 1.85rem;
+    }
+}
+
+@media (max-width:1100px) {
+    html {
+        font-size: 58%;
+    }
+
+    .box1 h3 {
+        font-size: 1.55rem;
+    }
+
+    .bottom .leftContent img {
+        width: 52rem;
+    }
+    .box1 {
+        width: 36%;
+    }
+
+    .box1 input[type="text"],
+    input[type="password"] {
+        width: 80%;
+    }
+    .bottom .rightContent .name input[type="text"] {
+        width: 14vw;
+        height: 3.3vh;
+    }
+    .bottom .rightContent .Mob_Pass input[type="text"] {
+        width: 25vw;
+        height: 3.3vh;
+    }
+}
+
+@media (max-width:900px) {
+    html {
+        font-size: 54%;
+    }
+
+    .box1 h3 {
+        font-size: 1.3rem;
+    }
+
+    .bottom .leftContent .leftcontentText {
+        width: 48%;
+    }
+
+    .box1 {
+        width: 38%;
+        height: 8.5rem;
+    }
+
+    .box1 input[type="text"],
+    input[type="password"] {
+        width: 85%;
+    }
+}
+
+@media (max-width:850px) {
+    html {
+        font-size: 50%;
+    }
+
+    .bottom .leftContent .leftcontentText {
+        width: 45%;
+    }
+
+    .box1 h3 {
+        font-size: 1rem;
+    }
+    .bottom .rightContent .name input[type="text"] {
+        width: 16vw;
+        height: 3.3vh;
+    }
+    .bottom .rightContent .Mob_Pass input[type="text"] {
+        width: 27vw;
+        height: 3.3vh;
+    }
+    .bottom .leftContent img {
+        width: 48rem;
+    }
+    .login .box2 {
+        width: 14%;
+    }
+
+    .login .box2 button {
+        width: 22rem;
+        height: 2.5rem;
+        margin-top: 2.2rem;
+    }
+}
+
+@media (max-width:700px) {
+    html {
+        font-size: 45%;
+    }
+
+    .bottom .leftContent .leftcontentText {
+        width: 48%;
+    }
+
+    .box1 h3 {
+        font-size: 1rem;
+    }
+    .bottom .rightContent .name input[type="text"] {
+        width: 19vw;
+        height: 3.3vh;
+    }
+    .bottom .rightContent .Mob_Pass input[type="text"] {
+        width: 39vw;
+        height: 3.3vh;
+    }
+}
+
+@media (max-width:650px){
+    html{
+        font-size: 40%;
+    }
+}
+
+@media (max-width:590px){
+    html{
+        font-size: 45%;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom .leftContent {
+        background-color: #ebedf5;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bottom .leftContent .leftcontentText{
+        width: 40%;
+        height: 14rem;
+        margin-bottom: 2rem;
+    }
+    .bottom .leftContent .leftcontentText p{
+        font-size: 2.5rem;
+    }
+
+    .bottom .leftContent img {
+        width: 67rem;
+        height: 37rem;
+    }
+
+    .bottom .rightContent .name input[type="text"] {
+        width: 25vw;
+        height: 3.3vh;
+    }
+    .bottom .rightContent .Mob_Pass input[type="text"] {
+        width: 52vw;
+        height: 3.3vh;
+    }
+
+    .bottom .rightContent {
+        width: 100vw;
+        padding-left: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo h1 {
+        font-size: 4.5rem;
+        width: 40vw;
+    }
+    .login .box2 {
+        width: 18%;
+    }
+    .login .box2 button {
+        width: 35rem;
+        height: 2.5rem;
+        margin-top: 2.2rem;
+    }
+    .box1 h3 {
+        font-size: .5rem;
+    }
+    .box1 {
+        width: 59%;
+        height: 8.5rem;
+    }
+    .box1 input[type="text"],
+    input[type="password"] {
+        width: 88%;
+    }
+}
+
+@media (max-width:535px){
+    html{
+        font-size: 40%;
+    }
+    .bottom .rightContent .gender {
+        width: 22rem;
+    }
+    .bottom .leftContent img {
+        width: 60rem;
+        height: 37rem;
+    }
+    .login .box2 {
+        width: 20%;
+    }
+}
+@media (max-width:420px){
+    html{
+        font-size: 38%;
+    }
+    .bottom .rightContent .name input[type="text"] {
+        width: 28vw;
+        height: 3.3vh;
+    }
+    .bottom .rightContent .Mob_Pass input[type="text"] {
+        width: 58vw;
+        height: 3.3vh;
+    }
+}
+@media (max-width:420px){
+    html{
+        font-size: 35%;
+    }
+}
