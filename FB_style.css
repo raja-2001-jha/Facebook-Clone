@@ -118,7 +118,8 @@ input[type="password"] {
 
 .bottom .leftContent .leftcontentText {
     margin: auto;
-    width: 40%;
+    width: 60%;
+    text-align: center;
     /* height: 140px; */
     height: 14rem;
     /* border: 1px solid black; */
@@ -265,6 +266,10 @@ input[type="password"] {
 
 .bottom .rightContent .last_para {
     display: flex;
+}
+
+.box1 a{
+    text-decoration: none;
 }
 
 @media (max-width:1180px) {
